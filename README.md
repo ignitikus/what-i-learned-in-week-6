@@ -15,9 +15,16 @@ At the beginning of this code `i` has value of `0`. At the end of the first run 
 Note: `if/else` statements can be used inside of the loop to create additional conditions. <br>
 `break` can be used to stop the loop after certain condition within loop is met.
 
+### [Whiles and Numbers All Wrapped Up In Strings](https://repl.it/@NikolayKim/Whiles-and-Numbers-All-Wrapped-Up-In-Strings)
+Simple loops with numbers and strings. <br>
+Lessons learned:
+
+    Use modulo to check if number is even or odd
+    number%2 === 0 ? true : false
+
+
 ### String Loops
 
-### Whiles and Numbers All Wrapped Up In Strings
 
 ## Intro to Arrays
 
