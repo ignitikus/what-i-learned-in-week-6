@@ -30,14 +30,33 @@ Lessons learned:
     function onlyA(str){
     let i = 0;
         while(i<=str.length){
-        str.charAt(i) === 'a'
-        console.log(str[i])
+        str.charAt(i) === 'a';
+        console.log(str[i]);
         }
     code code code 
 This fragment of the code is responsible for selecting only `a` within a string and outputting it in console.
 
 
 ## Intro to Arrays
+A variable that can store multiple values.
+
+    let items = [item1, item2, item3, item4];
+
+All the items within array have index. <br>
+Certain item within arrays can selected like this:
+
+    items[0];
+
+To select last item within array:
+
+    arr[arr.length - 1]
+
+Methods that can be used with arrays:
+
+    .push('item') - adds 'item' at the and of an array
+    .pop() - removes last item
+    .unshift('item') - adds 'item' at the beginning of and array and reassigns all indexes     
+    .shift() - removes first 'item' in an array and reassigns all indexes
 
 ### [You Deserve Arrays](https://github.com/ignitikus/you-deserve-arrays)
 
