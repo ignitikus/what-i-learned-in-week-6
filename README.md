@@ -59,9 +59,10 @@ Methods that can be used with arrays:
     .shift() - removes first 'item' in an array and reassigns all indexes
 
 ### [You Deserve Arrays](https://github.com/ignitikus/you-deserve-arrays)
+Exercise about selecting certain `item` within array.
 
-### Array Of Radioactive Mutants
-
+### [Array Of Radioactive Mutants](https://github.com/ignitikus/array-of-radioactive-mutants)
+Exercise about `push`ing, `unshift`ing and replacing values within an array.
 
 
 ## Human Resource Machine 
@@ -69,4 +70,9 @@ Methods that can be used with arrays:
     Level 24 - Mod Module
 
 ## Extra:
-### String Interpolation and Shortcut To Operators
+### String Interpolation 
+Feature that allows to insert variable inside of a variable
+
+    let name = 'Niko';
+    let occupation = 'Student';
+    return `Hello my name is ${name} and I'm a ${occupation}`
