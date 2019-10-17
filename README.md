@@ -23,7 +23,18 @@ Lessons learned:
     number%2 === 0 ? true : false
 
 
-### String Loops
+### [String Loops](https://repl.it/@NikolayKim/String-Loops-201-Advanced-String-Loops)
+Loops with strings or how to pick certain letter.
+Lessons learned:
+
+    function onlyA(str){
+    let i = 0;
+        while(i<=str.length){
+        str.charAt(i) === 'a'
+        console.log(str[i])
+        }
+    code code code 
+This fragment of the code is responsible for selecting only `a` within a string and outputting it in console.
 
 
 ## Intro to Arrays
